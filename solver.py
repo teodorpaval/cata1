@@ -30,7 +30,7 @@ def move(left, right):
     return []
 
 
-def differences (l, t):
+def differences(l, t):
     res = {}
     for i in l:
         for j in t[abs(i)]:
